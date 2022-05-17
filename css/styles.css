@@ -1,0 +1,80 @@
+* {
+    font-family: Roboto, "sans-serif";
+}
+
+/* HEADER STYLES */
+
+header {
+    background-color:#1f2937;
+}
+
+#mainNav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.headerLinks {    
+    display:flex;
+}
+
+#mainNav a { 
+    text-decoration: none;
+    padding:10px;
+}
+
+#mainNav a:hover {
+    background-color:#583b7c;
+    transition:ease .2s all;
+}
+
+.headerLogo {
+    font-size:24px;
+    color: #f9faf8;
+}
+
+.lowerHeader {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    align-items:center;
+    padding:5%;
+}
+
+.headercol1 {
+    display:flex;
+    flex-direction:column;
+    flex-basis:35%;
+}
+
+.headercol1 h1 {
+    font-size:48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom:2%;
+}
+
+.headercol1 p {
+    margin-bottom:3%;
+}
+
+.headercol1 p,
+#mainNav a {
+    color:#e5e7eb;
+    font-size:18px;
+}
+
+.headercol1 button {
+    align-self:flex-start;
+    padding:10px 20px;
+    border-radius:12px;
+    background-color:rgb(45, 136, 240);
+    color:white;
+    font-weight:bold;  
+}
+
+.headercol2 {
+    flex-basis:25%;
+}
+
