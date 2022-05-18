@@ -12,7 +12,7 @@ header {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px;
+    padding-top:10px;
 }
 
 .headerLinks {    
@@ -23,6 +23,7 @@ header {
     text-decoration: none;
     padding:10px;
 }
+
 
 #mainNav a:hover {
     background-color:#583b7c;
@@ -75,8 +76,13 @@ header {
     border-style: none;  
 }
 
-.headercol2 {
-    flex-basis:35%;
+.imgContainer {
+    /* flex-basis:35%; */
+    min-width: 400px;
+}
+
+.imgContainer img {
+    width:100%;
     height:auto;
 }
 
