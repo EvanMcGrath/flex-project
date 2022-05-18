@@ -185,3 +185,14 @@ header {
     border-color:#e5e7eb;
     border-style:solid;
 }
+
+/* ***********************FOOTER******************* */
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:3%;
+    background-color:#1f2937;
+    color:#e5e7eb;
+}
