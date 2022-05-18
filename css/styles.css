@@ -33,6 +33,7 @@ header {
 .headerLogo {
     font-size:24px;
     color: #f9faf8;
+    margin-left:1.75%;
 }
 
 .lowerHeader {
